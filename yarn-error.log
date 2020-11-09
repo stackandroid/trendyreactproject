@@ -1,0 +1,89 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add --dev babel-jest @babel/core
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/amilvila/Documents/google-cloud-sdk/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Users/amilvila/opt/miniconda3/bin:/Users/amilvila/opt/miniconda3/condabin:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/amilvila/Documents/www/www/www/botwcustomer/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/amilvila/Documents/www/www/www/botwcustomer/package.json: Unexpected token } in JSON at position 1471
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "portal-rapido",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.9.13",
+      "@material/react-material-icon": "^0.15.0",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "antd": "^3.23.5",
+      "axios": "^0.19.2",
+      "chart.js": "^2.9.3",
+      "d3-scale": "^3.2.1",
+      "eventemitter3": "^4.0.0",
+      "formik": "^2.1.4",
+      "immutability-helper": "^3.0.2",
+      "moment": "^2.25.3",
+      "react": "^16.13.1",
+      "react-compound-slider": "^2.5.0",
+      "react-dnd": "^10.0.2",
+      "react-dnd-html5-backend": "^10.0.2",
+      "react-dom": "^16.13.1",
+      "react-idle-timer": "^4.2.12",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.4.1",
+      "react-select": "^3.1.0",
+      "react-table": "^7.0.4",
+      "react-tiny-popover": "^4.1.0",
+      "styled-components": "^5.1.0",
+      "typeface-montserrat": "^0.0.75",
+      "yup": "^0.28.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "babel-jest": "^24.9.0",
+  
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
